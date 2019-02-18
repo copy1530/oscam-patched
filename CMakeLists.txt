@@ -759,7 +759,7 @@ if( HAVE_LIBRT OR HAVE_LIBRT_STATIC)
 	endif (HAVE_LIBUSB)
 endif( HAVE_LIBRT OR HAVE_LIBRT_STATIC)
 
-#-------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
 
 if (NOT OSCamOperatingSystem MATCHES "Mac OS X")
 if (NOT DEFINED ENV{ANDROID_NDK})
