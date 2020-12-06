@@ -3,6 +3,7 @@
 #include "oscam-time.h"
 #include "reader-common.h"
 #include "reader-irdeto.h"
+#include "cscrypt/des.h"
 
 static const uint8_t CryptTable[256] =
 {
